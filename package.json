@@ -1,0 +1,42 @@
+{
+  "name": "lock-versions",
+  "version": "1.0.0",
+  "description": "Lock all versions in a local package.json file",
+  "main": "index.js",
+  "bin": {
+    "lock-versions": "./cli.js"
+  },
+  "license": "MIT",
+  "scripts": {},
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "bl": "git://github.com/hughsk/bl#missing-dep",
+    "clone": "^0.1.16",
+    "debug": "^1.0.2",
+    "map-limit": "0.0.0",
+    "minimist": "^0.1.0",
+    "npm-stats": "^0.3.0",
+    "semver": "^2.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/lock-versions.git"
+  },
+  "keywords": [
+    "lock",
+    "package.json",
+    "npm",
+    "module",
+    "tool",
+    "cli"
+  ],
+  "homepage": "https://github.com/hughsk/lock-versions",
+  "bugs": {
+    "url": "https://github.com/hughsk/lock-versions/issues"
+  }
+}

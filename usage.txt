@@ -1,0 +1,13 @@
+
+Usage: lock-versions [file(s)...]
+
+  Locks all of your package.json's versions to a single version number,
+  matching the best version currently available on npm that satisfies the
+  current range.
+
+  Useful mostly for providing more reliable deploys when running node
+  applications in production. For example:
+
+  lock-versions package.json
+  lock-versions node_modules/*/package.json
+  cat package.json | lock-versions > package.json
