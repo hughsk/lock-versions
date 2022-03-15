@@ -14,7 +14,7 @@
     "url": "http://hughsk.io/"
   },
   "dependencies": {
-    "bl": "git://github.com/hughsk/bl#missing-dep",
+    "bl": "https://github.com/hughsk/bl#missing-dep",
     "clone": "^0.1.16",
     "debug": "^1.0.2",
     "map-limit": "0.0.0",
@@ -25,7 +25,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/hughsk/lock-versions.git"
+    "url": "https://github.com/hughsk/lock-versions.git"
   },
   "keywords": [
     "lock",
